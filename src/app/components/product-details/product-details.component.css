@@ -10,3 +10,10 @@
 .product-details button:hover {
   background-color: #333;
 }
+.product-details img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
