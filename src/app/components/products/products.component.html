@@ -1,1 +1,11 @@
-<p>products works!</p>
+<div class="products-container">
+    <h2>Lista de Productos</h2>
+    <div class="product-list">
+      <div class="product-item" *ngFor="let product of products">
+        <h3>{{ product.name }}</h3>
+        <p>{{ product.description }}</p>
+        <button [routerLink]="['/product', product.id]">Ver Detalle</button>
+      </div>
+    </div>
+  </div>
+  
